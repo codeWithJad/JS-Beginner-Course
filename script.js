@@ -1,12 +1,22 @@
-// const year = '2040';
+const enjoysCoding = true;
+const drinksCoffee = true;
 
-// if (year == 2040) console.log('It is the Digital Era! (2 Equals)'); // 2040 == 2040
+if (enjoysCoding && drinksCoffee) {
+  console.log('Jad has a Shinny Future!');
+} else {
+  console.log('Jad should figure out his Purpose');
+}
 
-// if (year === 2040) console.log('It is the Digital Era! (3 Equals)'); // "2040" === 2040 -> false
+if (enjoysCoding || drinksCoffee) {
+  console.log('Jad has a Shinny Future!');
+} else {
+  console.log('Jad should figure out his Purpose');
+}
 
-const input = Number(prompt('provide your Future year'));
+const isSick = true;
 
-if (input === 2040) console.log('It is the Digital Era! (3 Equals)');
-else {
-  console.log('This Year ' + input + ' is Boring');
+if (enjoysCoding && drinksCoffee && !isSick) {
+  console.log('Jad Can Code!');
+} else {
+  console.log('Jad can not Code');
 }
