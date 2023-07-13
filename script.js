@@ -1,15 +1,12 @@
-// "", 0 , undefined, null, NaN
+// const year = '2040';
 
-console.log(Boolean(''));
-console.log(Boolean(undefined));
-console.log(Boolean('Jad'));
-console.log(Boolean({}));
-console.log(Boolean(0));
-console.log(Boolean(100));
+// if (year == 2040) console.log('It is the Digital Era! (2 Equals)'); // 2040 == 2040
 
-let width = 100;
-if (width) {
-  console.log(`YaaaHooo width is ${width}`);
-} else {
-  console.log(`Ooops width is ${Boolean(width)}`);
+// if (year === 2040) console.log('It is the Digital Era! (3 Equals)'); // "2040" === 2040 -> false
+
+const input = Number(prompt('provide your Future year'));
+
+if (input === 2040) console.log('It is the Digital Era! (3 Equals)');
+else {
+  console.log('This Year ' + input + ' is Boring');
 }
